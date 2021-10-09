@@ -1,19 +1,19 @@
 //
-// Created by РђР»РµРєСЃРµР№ РђС„Р°РЅР°СЃСЊРµРІ on 08.10.2021.
+// Created by Алексей Афанасьев on 08.10.2021.
 //
 
 #ifndef PRODUCT_H
 #define PRODUCT_H
 
 /**
- * РћРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС‚Р°
+ * Описание продукта
  */
 struct Product {
     Product();
     Product(const char*, float);
-    // РќР°РёРјРµРЅРѕРІР°РЅРёРµ
+    // Наименование
     char *Name;
-    // Р¦РµРЅР°
+    // Цена
     float Price;
 };
 

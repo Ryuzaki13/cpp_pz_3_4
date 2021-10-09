@@ -1,5 +1,5 @@
 //
-// Created by ΠΠ»ΠµΠΊΡΠµΠΉ ΠΡ„Π°Π½Π°ΡΡΠµΠ² on 08.10.2021.
+// Created by ΐλεκρει ΐτΰνΰρόεβ on 08.10.2021.
 //
 
 #include <cstring>
@@ -15,6 +15,7 @@ Product::Product(const char *name, float price) {
 
     this->Name = new char[len+1];
     strcpy(this->Name, name);
+    
 
     this->Price = price;
 }
